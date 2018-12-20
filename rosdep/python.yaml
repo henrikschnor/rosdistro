@@ -3196,6 +3196,26 @@ python-qwt5-qt4:
   fedora: [PyQwt]
   gentoo: ['dev-python/pyqwt:5']
   ubuntu: [python-qwt5-qt4]
+python-rasa-core-pip:
+  debian:
+    pip:
+      packages: [rasa-core]
+  fedora:
+    pip:
+      packages: [rasa-core]
+  ubuntu:
+    pip:
+      packages: [rasa-core]
+python-rasa-nlu-pip:
+  debian:
+    pip:
+      packages: [rasa-nlu]
+  fedora:
+    pip:
+      packages: [rasa-nlu]
+  ubuntu:
+    pip:
+      packages: [rasa-nlu]
 python-rdflib:
   debian: [python-rdflib]
   fedora: [python-rdflib]
@@ -3740,6 +3760,16 @@ python-sklearn:
     maverick: []
     natty: []
     oneiric: []
+python-sklearn-crfsuite-pip:
+  debian:
+    pip:
+      packages: [sklearn-crfsuite]
+  fedora:
+    pip:
+      packages: [sklearn-crfsuite]
+  ubuntu:
+    pip:
+      packages: [sklearn-crfsuite]
 python-slackclient-pip:
   debian:
     pip:
@@ -3780,6 +3810,16 @@ python-sortedcontainers-pip:
   ubuntu:
     pip:
       packages: [sortedcontainers]
+python-spacy-pip:
+  debian:
+    pip:
+      packages: [spacy]
+  fedora:
+    pip:
+      packages: [spacy]
+  ubuntu:
+    pip:
+      packages: [spacy]
 python-sparqlwrapper:
   debian: [python-sparqlwrapper]
   gentoo: [dev-python/sparql-wrapper]
